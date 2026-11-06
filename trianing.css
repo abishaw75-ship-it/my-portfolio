@@ -1,0 +1,179 @@
+
+/* General Page Styling */
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: aliceblue;
+    background-image: url("images/YEDAMOT.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: #222;
+    line-height: 1.7;
+}
+
+/* Navigation */
+header {
+    background-color: #172554;
+    padding: 20px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin:  12px;
+    font-weight: bold;
+    display: inline-block;
+}
+
+nav a:hover {
+    color: #38bdf8;
+}
+
+/* All Sections */
+section {
+    margin: 25px auto;
+    padding: 25px;
+    width: 90%;
+    max-width: 1000px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+}
+
+/* Home */
+#home {
+    background-color: rgba(255, 255, 255, 0.94);
+    text-align: center;
+}
+
+#home img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 12px;
+    object-fit: cover;
+}
+
+#home h1 {
+    color: #1d4ed8;
+    font-size: 36px;
+}
+
+/* About */
+#about {
+    background-color: rgba(255, 255, 255, 0.96);
+    color: #1e3a8a;
+    text-align: justify;
+}
+
+/* Education */
+#education {
+    background-color: rgba(245, 245, 220, 0.96);
+    color: #6b21a8;
+}
+
+/* Registration */
+#registration {
+    background-color: rgba(240, 255, 255, 0.96);
+    color: #7c2d12;
+}
+
+/* Skills */
+#skills {
+    background-color: rgba(120, 53, 15, 0.96);
+    color: white;
+}
+
+/* Projects */
+#project {
+    background-color: rgba(0, 255, 255, 0.92);
+    color: #111827;
+}
+
+/* Contact */
+#contact {
+    background-color: rgba(23, 37, 84, 0.97);
+    color: white;
+}
+
+/* Form Inputs */
+input,
+textarea {
+    width: 100%;
+    max-width: 600px;
+    padding: 12px;
+    margin-top: 6px;
+    border: 1px solid #9ca3af;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+/* Submit Button */
+button {
+    background-color: #2563eb;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #1d4ed8;
+}
+
+/* Lists and Links */
+li {
+    margin-bottom: 8px;
+}
+
+#registration a {
+    color: inherit;
+}
+
+/* Footer */
+footer {
+    background-color: #172554;
+    color: white;
+    text-align: center;
+    padding: 18px;
+    margin-top: 30px;
+}
+
+/* Mobile Responsive Design */
+@media (max-width: 600px) {
+    header {
+        padding: 12px;
+    }
+
+    nav a {
+        margin: 5px;
+        font-size: 14px;
+    }
+
+    section {
+        width: 94%;
+        padding: 18px;
+    }
+
+    #home h1 {
+        font-size: 28px;
+    }
+}
+
+/*this is the CSS for the result.html page */
+
